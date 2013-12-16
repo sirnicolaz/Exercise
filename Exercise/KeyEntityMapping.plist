@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>images</key>
+	<string>RIImageMapper</string>
+	<key>simples</key>
+	<string>RISimpleMapper</string>
+	<key>results</key>
+	<string>RIItemMapper</string>
+</dict>
+</plist>

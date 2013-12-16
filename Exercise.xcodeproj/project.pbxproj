@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		470D0B762E4D40D089C8B5BA /* libPods-ExerciseTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F299740932434630BD439F1D /* libPods-ExerciseTests.a */; };
 		D71430F6185B31B60039E902 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71430F5185B31B60039E902 /* Foundation.framework */; };
 		D71430F8185B31B60039E902 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71430F7185B31B60039E902 /* CoreGraphics.framework */; };
 		D71430FA185B31B60039E902 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71430F9185B31B60039E902 /* UIKit.framework */; };
@@ -25,6 +26,37 @@
 		D7143120185B31B60039E902 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71430FB185B31B60039E902 /* CoreData.framework */; };
 		D7143128185B31B60039E902 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7143126185B31B60039E902 /* InfoPlist.strings */; };
 		D714312A185B31B60039E902 /* ExerciseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7143129185B31B60039E902 /* ExerciseTests.m */; };
+		D7143137185B455C0039E902 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D7143136185B455C0039E902 /* NSString+Additions.m */; };
+		D7143138185B455C0039E902 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D7143136185B455C0039E902 /* NSString+Additions.m */; };
+		D7143159185E31AB0039E902 /* RISimple.m in Sources */ = {isa = PBXBuildFile; fileRef = D7143158185E31AB0039E902 /* RISimple.m */; };
+		D714315A185E31AB0039E902 /* RISimple.m in Sources */ = {isa = PBXBuildFile; fileRef = D7143158185E31AB0039E902 /* RISimple.m */; };
+		D714315D185E31AB0039E902 /* RIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D714315C185E31AB0039E902 /* RIImage.m */; };
+		D714315E185E31AB0039E902 /* RIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D714315C185E31AB0039E902 /* RIImage.m */; };
+		D7143161185E31AC0039E902 /* RIItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D7143160185E31AC0039E902 /* RIItem.m */; };
+		D7143162185E31AC0039E902 /* RIItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D7143160185E31AC0039E902 /* RIItem.m */; };
+		D714316B185E35A90039E902 /* RIAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D714316A185E35A90039E902 /* RIAPIManager.m */; };
+		D714316C185E35A90039E902 /* RIAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D714316A185E35A90039E902 /* RIAPIManager.m */; };
+		D714316F185E3E150039E902 /* RIAPIManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D714316E185E3E150039E902 /* RIAPIManagerTests.m */; };
+		D7F6B2AF185E490900638B0E /* response.json in Resources */ = {isa = PBXBuildFile; fileRef = D7F6B2AE185E490900638B0E /* response.json */; };
+		D7F6B2B0185E490C00638B0E /* response.json in Resources */ = {isa = PBXBuildFile; fileRef = D7F6B2AE185E490900638B0E /* response.json */; };
+		D7F785BF185E4B68008A937E /* RIItemMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F785BE185E4B68008A937E /* RIItemMapper.m */; };
+		D7F785C0185E4B68008A937E /* RIItemMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F785BE185E4B68008A937E /* RIItemMapper.m */; };
+		D7F785C3185E4B71008A937E /* RISimpleMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F785C2185E4B71008A937E /* RISimpleMapper.m */; };
+		D7F785C4185E4B71008A937E /* RISimpleMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F785C2185E4B71008A937E /* RISimpleMapper.m */; };
+		D7F785C7185E4BFB008A937E /* RIResponseMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F785C6185E4BFB008A937E /* RIResponseMapper.m */; };
+		D7F785C8185E4BFB008A937E /* RIResponseMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F785C6185E4BFB008A937E /* RIResponseMapper.m */; };
+		D7F785CA185E4D47008A937E /* KeyEntityMapping.plist in Resources */ = {isa = PBXBuildFile; fileRef = D7F785C9185E4D47008A937E /* KeyEntityMapping.plist */; };
+		D7F785CB185E4D47008A937E /* KeyEntityMapping.plist in Resources */ = {isa = PBXBuildFile; fileRef = D7F785C9185E4D47008A937E /* KeyEntityMapping.plist */; };
+		D7F785CE185E4D78008A937E /* RIKeyEntityMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F785CD185E4D78008A937E /* RIKeyEntityMapper.m */; };
+		D7F785CF185E4D78008A937E /* RIKeyEntityMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F785CD185E4D78008A937E /* RIKeyEntityMapper.m */; };
+		D7F785D2185E59FE008A937E /* RIImageMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F785D1185E59FE008A937E /* RIImageMapper.m */; };
+		D7F785D3185E59FE008A937E /* RIImageMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F785D1185E59FE008A937E /* RIImageMapper.m */; };
+		D7F785D5185E5AF4008A937E /* RIImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F785D4185E5AF4008A937E /* RIImageTests.m */; };
+		D7F785D7185E5B01008A937E /* RIImageMapperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F785D6185E5B01008A937E /* RIImageMapperTests.m */; };
+		D7F785D9185E5F8D008A937E /* RISimpleMapperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F785D8185E5F8D008A937E /* RISimpleMapperTests.m */; };
+		D7F785DC185E66A6008A937E /* RIAPIConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F785DB185E66A6008A937E /* RIAPIConfiguration.m */; };
+		D7F785DD185E66A6008A937E /* RIAPIConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F785DB185E66A6008A937E /* RIAPIConfiguration.m */; };
+		D897CD4F8713409685845E00 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 065236F44EF8479EA115D652 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +70,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		065236F44EF8479EA115D652 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		11CE7062C5D94F68A2EBF1B2 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		17BB66FA74ED4406A9A137F1 /* Pods-ExerciseTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExerciseTests.xcconfig"; path = "Pods/Pods-ExerciseTests.xcconfig"; sourceTree = "<group>"; };
 		D71430F2185B31B60039E902 /* Exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D71430F5185B31B60039E902 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D71430F7185B31B60039E902 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,6 +96,38 @@
 		D7143125185B31B60039E902 /* ExerciseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExerciseTests-Info.plist"; sourceTree = "<group>"; };
 		D7143127185B31B60039E902 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D7143129185B31B60039E902 /* ExerciseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExerciseTests.m; sourceTree = "<group>"; };
+		D7143135185B455C0039E902 /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
+		D7143136185B455C0039E902 /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
+		D7143157185E31AB0039E902 /* RISimple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RISimple.h; sourceTree = "<group>"; };
+		D7143158185E31AB0039E902 /* RISimple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RISimple.m; sourceTree = "<group>"; };
+		D714315B185E31AB0039E902 /* RIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIImage.h; sourceTree = "<group>"; };
+		D714315C185E31AB0039E902 /* RIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIImage.m; sourceTree = "<group>"; };
+		D714315F185E31AC0039E902 /* RIItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIItem.h; sourceTree = "<group>"; };
+		D7143160185E31AC0039E902 /* RIItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIItem.m; sourceTree = "<group>"; };
+		D7143169185E35A90039E902 /* RIAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIAPIManager.h; sourceTree = "<group>"; };
+		D714316A185E35A90039E902 /* RIAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIAPIManager.m; sourceTree = "<group>"; };
+		D714316E185E3E150039E902 /* RIAPIManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIAPIManagerTests.m; sourceTree = "<group>"; };
+		D7143178185E3F880039E902 /* RITestMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RITestMacros.h; sourceTree = "<group>"; };
+		D7143179185E3FAD0039E902 /* ExerciseTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ExerciseTests-Prefix.pch"; sourceTree = "<group>"; };
+		D7F6B2AE185E490900638B0E /* response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = response.json; sourceTree = "<group>"; };
+		D7F785BC185E4AF9008A937E /* RIEntityMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIEntityMapper.h; sourceTree = "<group>"; };
+		D7F785BD185E4B68008A937E /* RIItemMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIItemMapper.h; sourceTree = "<group>"; };
+		D7F785BE185E4B68008A937E /* RIItemMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIItemMapper.m; sourceTree = "<group>"; };
+		D7F785C1185E4B71008A937E /* RISimpleMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RISimpleMapper.h; sourceTree = "<group>"; };
+		D7F785C2185E4B71008A937E /* RISimpleMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RISimpleMapper.m; sourceTree = "<group>"; };
+		D7F785C5185E4BFB008A937E /* RIResponseMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIResponseMapper.h; sourceTree = "<group>"; };
+		D7F785C6185E4BFB008A937E /* RIResponseMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIResponseMapper.m; sourceTree = "<group>"; };
+		D7F785C9185E4D47008A937E /* KeyEntityMapping.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = KeyEntityMapping.plist; sourceTree = "<group>"; };
+		D7F785CC185E4D78008A937E /* RIKeyEntityMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIKeyEntityMapper.h; sourceTree = "<group>"; };
+		D7F785CD185E4D78008A937E /* RIKeyEntityMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIKeyEntityMapper.m; sourceTree = "<group>"; };
+		D7F785D0185E59FE008A937E /* RIImageMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIImageMapper.h; sourceTree = "<group>"; };
+		D7F785D1185E59FE008A937E /* RIImageMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIImageMapper.m; sourceTree = "<group>"; };
+		D7F785D4185E5AF4008A937E /* RIImageTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIImageTests.m; sourceTree = "<group>"; };
+		D7F785D6185E5B01008A937E /* RIImageMapperTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIImageMapperTests.m; sourceTree = "<group>"; };
+		D7F785D8185E5F8D008A937E /* RISimpleMapperTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RISimpleMapperTests.m; sourceTree = "<group>"; };
+		D7F785DA185E66A6008A937E /* RIAPIConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIAPIConfiguration.h; sourceTree = "<group>"; };
+		D7F785DB185E66A6008A937E /* RIAPIConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIAPIConfiguration.m; sourceTree = "<group>"; };
+		F299740932434630BD439F1D /* libPods-ExerciseTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ExerciseTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +139,7 @@
 				D71430FC185B31B60039E902 /* CoreData.framework in Frameworks */,
 				D71430FA185B31B60039E902 /* UIKit.framework in Frameworks */,
 				D71430F6185B31B60039E902 /* Foundation.framework in Frameworks */,
+				D897CD4F8713409685845E00 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +151,7 @@
 				D7143120185B31B60039E902 /* CoreData.framework in Frameworks */,
 				D714311F185B31B60039E902 /* UIKit.framework in Frameworks */,
 				D714311E185B31B60039E902 /* Foundation.framework in Frameworks */,
+				470D0B762E4D40D089C8B5BA /* libPods-ExerciseTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +165,8 @@
 				D7143123185B31B60039E902 /* ExerciseTests */,
 				D71430F4185B31B60039E902 /* Frameworks */,
 				D71430F3185B31B60039E902 /* Products */,
+				11CE7062C5D94F68A2EBF1B2 /* Pods.xcconfig */,
+				17BB66FA74ED4406A9A137F1 /* Pods-ExerciseTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,6 +187,8 @@
 				D71430F9185B31B60039E902 /* UIKit.framework */,
 				D71430FB185B31B60039E902 /* CoreData.framework */,
 				D714311C185B31B60039E902 /* XCTest.framework */,
+				065236F44EF8479EA115D652 /* libPods.a */,
+				F299740932434630BD439F1D /* libPods-ExerciseTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -123,15 +196,14 @@
 		D71430FD185B31B60039E902 /* Exercise */ = {
 			isa = PBXGroup;
 			children = (
+				D7143163185E31F70039E902 /* API */,
+				D7143156185E2F9D0039E902 /* Controllers */,
+				D7143155185E2F940039E902 /* Views */,
+				D7143154185E2F900039E902 /* Models */,
+				D7143134185B45450039E902 /* Categories */,
 				D7143106185B31B60039E902 /* RIAppDelegate.h */,
 				D7143107185B31B60039E902 /* RIAppDelegate.m */,
-				D7143109185B31B60039E902 /* Main.storyboard */,
-				D714310F185B31B60039E902 /* RIMasterViewController.h */,
-				D7143110185B31B60039E902 /* RIMasterViewController.m */,
-				D7143112185B31B60039E902 /* RIDetailViewController.h */,
-				D7143113185B31B60039E902 /* RIDetailViewController.m */,
 				D7143115185B31B60039E902 /* Images.xcassets */,
-				D714310C185B31B60039E902 /* Exercise.xcdatamodeld */,
 				D71430FE185B31B60039E902 /* Supporting Files */,
 			);
 			path = Exercise;
@@ -151,8 +223,13 @@
 		D7143123185B31B60039E902 /* ExerciseTests */ = {
 			isa = PBXGroup;
 			children = (
+				D7143170185E3F0E0039E902 /* Resources */,
 				D7143129185B31B60039E902 /* ExerciseTests.m */,
 				D7143124185B31B60039E902 /* Supporting Files */,
+				D714316E185E3E150039E902 /* RIAPIManagerTests.m */,
+				D7F785D4185E5AF4008A937E /* RIImageTests.m */,
+				D7F785D6185E5B01008A937E /* RIImageMapperTests.m */,
+				D7F785D8185E5F8D008A937E /* RISimpleMapperTests.m */,
 			);
 			path = ExerciseTests;
 			sourceTree = "<group>";
@@ -162,8 +239,83 @@
 			children = (
 				D7143125185B31B60039E902 /* ExerciseTests-Info.plist */,
 				D7143126185B31B60039E902 /* InfoPlist.strings */,
+				D7143178185E3F880039E902 /* RITestMacros.h */,
+				D7143179185E3FAD0039E902 /* ExerciseTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7143134185B45450039E902 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				D7143135185B455C0039E902 /* NSString+Additions.h */,
+				D7143136185B455C0039E902 /* NSString+Additions.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		D7143154185E2F900039E902 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D714310C185B31B60039E902 /* Exercise.xcdatamodeld */,
+				D714315F185E31AC0039E902 /* RIItem.h */,
+				D7143160185E31AC0039E902 /* RIItem.m */,
+				D714315B185E31AB0039E902 /* RIImage.h */,
+				D714315C185E31AB0039E902 /* RIImage.m */,
+				D7143157185E31AB0039E902 /* RISimple.h */,
+				D7143158185E31AB0039E902 /* RISimple.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D7143155185E2F940039E902 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D7143109185B31B60039E902 /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D7143156185E2F9D0039E902 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D714310F185B31B60039E902 /* RIMasterViewController.h */,
+				D7143110185B31B60039E902 /* RIMasterViewController.m */,
+				D7143112185B31B60039E902 /* RIDetailViewController.h */,
+				D7143113185B31B60039E902 /* RIDetailViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D7143163185E31F70039E902 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				D7143169185E35A90039E902 /* RIAPIManager.h */,
+				D714316A185E35A90039E902 /* RIAPIManager.m */,
+				D7F785BC185E4AF9008A937E /* RIEntityMapper.h */,
+				D7F785BD185E4B68008A937E /* RIItemMapper.h */,
+				D7F785BE185E4B68008A937E /* RIItemMapper.m */,
+				D7F785C1185E4B71008A937E /* RISimpleMapper.h */,
+				D7F785C2185E4B71008A937E /* RISimpleMapper.m */,
+				D7F785C5185E4BFB008A937E /* RIResponseMapper.h */,
+				D7F785C6185E4BFB008A937E /* RIResponseMapper.m */,
+				D7F785C9185E4D47008A937E /* KeyEntityMapping.plist */,
+				D7F785CC185E4D78008A937E /* RIKeyEntityMapper.h */,
+				D7F785CD185E4D78008A937E /* RIKeyEntityMapper.m */,
+				D7F785D0185E59FE008A937E /* RIImageMapper.h */,
+				D7F785D1185E59FE008A937E /* RIImageMapper.m */,
+				D7F785DA185E66A6008A937E /* RIAPIConfiguration.h */,
+				D7F785DB185E66A6008A937E /* RIAPIConfiguration.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		D7143170185E3F0E0039E902 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D7F6B2AE185E490900638B0E /* response.json */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,9 +325,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D714312D185B31B60039E902 /* Build configuration list for PBXNativeTarget "Exercise" */;
 			buildPhases = (
+				6796548D6DBF409D94FB4014 /* Check Pods Manifest.lock */,
 				D71430EE185B31B60039E902 /* Sources */,
 				D71430EF185B31B60039E902 /* Frameworks */,
 				D71430F0185B31B60039E902 /* Resources */,
+				5B9FBD38B2AB4A72871985BA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -190,9 +344,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7143130185B31B60039E902 /* Build configuration list for PBXNativeTarget "ExerciseTests" */;
 			buildPhases = (
+				C92178A9A7C4485DB2DB3166 /* Check Pods Manifest.lock */,
 				D7143117185B31B60039E902 /* Sources */,
 				D7143118185B31B60039E902 /* Frameworks */,
 				D7143119185B31B60039E902 /* Resources */,
+				C9D0A86F6C554D969065DA29 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,6 +399,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7F6B2B0185E490C00638B0E /* response.json in Resources */,
+				D7F785CA185E4D47008A937E /* KeyEntityMapping.plist in Resources */,
 				D7143116185B31B60039E902 /* Images.xcassets in Resources */,
 				D7143102185B31B60039E902 /* InfoPlist.strings in Resources */,
 				D714310B185B31B60039E902 /* Main.storyboard in Resources */,
@@ -253,22 +411,98 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7F6B2AF185E490900638B0E /* response.json in Resources */,
+				D7F785CB185E4D47008A937E /* KeyEntityMapping.plist in Resources */,
 				D7143128185B31B60039E902 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5B9FBD38B2AB4A72871985BA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6796548D6DBF409D94FB4014 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C92178A9A7C4485DB2DB3166 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C9D0A86F6C554D969065DA29 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-ExerciseTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D71430EE185B31B60039E902 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7F785CE185E4D78008A937E /* RIKeyEntityMapper.m in Sources */,
 				D7143104185B31B60039E902 /* main.m in Sources */,
+				D7F785C3185E4B71008A937E /* RISimpleMapper.m in Sources */,
 				D7143111185B31B60039E902 /* RIMasterViewController.m in Sources */,
+				D714315D185E31AB0039E902 /* RIImage.m in Sources */,
+				D7143161185E31AC0039E902 /* RIItem.m in Sources */,
+				D7F785C7185E4BFB008A937E /* RIResponseMapper.m in Sources */,
 				D7143114185B31B60039E902 /* RIDetailViewController.m in Sources */,
+				D7F785BF185E4B68008A937E /* RIItemMapper.m in Sources */,
+				D714316B185E35A90039E902 /* RIAPIManager.m in Sources */,
+				D7143159185E31AB0039E902 /* RISimple.m in Sources */,
 				D714310E185B31B60039E902 /* Exercise.xcdatamodeld in Sources */,
+				D7F785DC185E66A6008A937E /* RIAPIConfiguration.m in Sources */,
+				D7F785D2185E59FE008A937E /* RIImageMapper.m in Sources */,
 				D7143108185B31B60039E902 /* RIAppDelegate.m in Sources */,
+				D7143137185B455C0039E902 /* NSString+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +510,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7F785D5185E5AF4008A937E /* RIImageTests.m in Sources */,
+				D7F785C0185E4B68008A937E /* RIItemMapper.m in Sources */,
+				D714316F185E3E150039E902 /* RIAPIManagerTests.m in Sources */,
 				D714312A185B31B60039E902 /* ExerciseTests.m in Sources */,
+				D714316C185E35A90039E902 /* RIAPIManager.m in Sources */,
+				D7F785CF185E4D78008A937E /* RIKeyEntityMapper.m in Sources */,
+				D7F785C8185E4BFB008A937E /* RIResponseMapper.m in Sources */,
+				D7143138185B455C0039E902 /* NSString+Additions.m in Sources */,
+				D7F785D9185E5F8D008A937E /* RISimpleMapperTests.m in Sources */,
+				D714315E185E31AB0039E902 /* RIImage.m in Sources */,
+				D714315A185E31AB0039E902 /* RISimple.m in Sources */,
+				D7F785D3185E59FE008A937E /* RIImageMapper.m in Sources */,
+				D7F785DD185E66A6008A937E /* RIAPIConfiguration.m in Sources */,
+				D7F785C4185E4B71008A937E /* RISimpleMapper.m in Sources */,
+				D7143162185E31AC0039E902 /* RIItem.m in Sources */,
+				D7F785D7185E5B01008A937E /* RIImageMapperTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +641,7 @@
 		};
 		D714312E185B31B60039E902 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11CE7062C5D94F68A2EBF1B2 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -405,6 +655,7 @@
 		};
 		D714312F185B31B60039E902 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11CE7062C5D94F68A2EBF1B2 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -418,6 +669,7 @@
 		};
 		D7143131185B31B60039E902 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17BB66FA74ED4406A9A137F1 /* Pods-ExerciseTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Exercise.app/Exercise";
@@ -427,7 +679,7 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Exercise/Exercise-Prefix.pch";
+				GCC_PREFIX_HEADER = "ExerciseTests/ExerciseTests-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -441,6 +693,7 @@
 		};
 		D7143132185B31B60039E902 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17BB66FA74ED4406A9A137F1 /* Pods-ExerciseTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Exercise.app/Exercise";
@@ -450,7 +703,7 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Exercise/Exercise-Prefix.pch";
+				GCC_PREFIX_HEADER = "ExerciseTests/ExerciseTests-Prefix.pch";
 				INFOPLIST_FILE = "ExerciseTests/ExerciseTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -477,6 +730,7 @@
 				D714312F185B31B60039E902 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7143130185B31B60039E902 /* Build configuration list for PBXNativeTarget "ExerciseTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +739,7 @@
 				D7143132185B31B60039E902 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

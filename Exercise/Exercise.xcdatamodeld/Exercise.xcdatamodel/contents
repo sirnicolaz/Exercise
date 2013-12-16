@@ -1,9 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <entity name="Event">
-        <attribute name="timeStamp" optional="YES" attributeType="Date"/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3400" systemVersion="12F45" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="RIImage" representedClassName="RIImage" syncable="YES">
+        <attribute name="localPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remotePath" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="defaultForItem" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="RIItem" inverseName="defaultImage" inverseEntity="RIItem" syncable="YES"/>
+        <relationship name="item" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="RIItem" inverseName="images" inverseEntity="RIItem" syncable="YES"/>
+    </entity>
+    <entity name="RIItem" representedClassName="RIItem">
+        <attribute name="brand" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="identifier" attributeType="Integer 32" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="itemDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="maxPrice" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="sku" attributeType="String" syncable="YES"/>
+        <relationship name="defaultImage" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="RIImage" inverseName="defaultForItem" inverseEntity="RIImage" syncable="YES"/>
+        <relationship name="images" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="RIImage" inverseName="item" inverseEntity="RIImage" syncable="YES"/>
+        <relationship name="simples" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="RISimple" inverseName="item" inverseEntity="RISimple" syncable="YES"/>
+        <userInfo/>
+    </entity>
+    <entity name="RISimple" representedClassName="RISimple" syncable="YES">
+        <attribute name="cachingHash" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="position" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="quantity" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="size" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sku" attributeType="String" indexed="YES" syncable="YES"/>
+        <relationship name="item" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="RIItem" inverseName="simples" inverseEntity="RIItem" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Event" positionX="261" positionY="189" width="128" height="60"/>
+        <element name="RIImage" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="RIItem" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="RISimple" positionX="0" positionY="0" width="0" height="0"/>
     </elements>
 </model>

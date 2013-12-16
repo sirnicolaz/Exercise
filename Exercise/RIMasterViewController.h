@@ -12,7 +12,7 @@
 
 @interface RIMasterViewController : UITableViewController <NSFetchedResultsControllerDelegate>
 
-@property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
+@property (strong, nonatomic) NSArray *dataSource;
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 
 @end
